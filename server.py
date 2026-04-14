@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import json
 import os
 
 app = FastAPI()
+# ... дальше весь твой остальной код ...
 
 # Разрешаем доступ твоему сайту
 app.add_middleware(
